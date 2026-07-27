@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Generator temp files
+documents/_body_*.html
+documents/_*.html

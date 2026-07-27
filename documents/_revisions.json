@@ -1,0 +1,47 @@
+{
+  "current_version": "0.7",
+  "history": [
+    {
+      "date": "25 July 2026",
+      "version": "0.1",
+      "description": "ฉบับแรก (Initial release) — Cover page, doc control, body content",
+      "by": "Product Owner"
+    },
+    {
+      "date": "25 July 2026",
+      "version": "0.2",
+      "description": "ปรับ layout หน้า 1 (Cover) ใช้ CSS Grid 5 rows + หน้า 2 (Doc Control) ปรับ section markers เป็น badge สีดำ, compress spacing",
+      "by": "Product Owner"
+    },
+    {
+      "date": "25 July 2026",
+      "version": "0.3",
+      "description": "ถอด resource assumptions (13 สัปดาห์, 8-10 ชม./สัปดาห์, F&F 5 คน, buffer %, sprint dates) ออกจาก sprint-plan และ sprint-tasks. เปลี่ยนเป็น Work Packages (WP0-WP6) ที่ไม่ผูก schedule. เก็บ effort estimates ไว้เป็น work sizing. Owner จัดการ scheduling เอง.",
+      "by": "Product Owner"
+    },
+    {
+      "date": "25 July 2026",
+      "version": "0.4",
+      "description": "จัดใหม่ตาม workflow PRD→REQ→WBS→EST→SCH. เพิ่ม 4 เอกสาร standard PM: REQ (requirements catalog + traceability), WBS (hierarchical work breakdown, 100% rule), EST (effort estimates with confidence levels), SCH (schedule framework template, owner-fills). Archive sprint-plan และ sprint-tasks (redundant กับ WBS+EST+SCH)",
+      "by": "Product Owner"
+    },
+    {
+      "date": "25 July 2026",
+      "version": "0.5",
+      "description": "เพิ่ม HND (Handover Document) เตรียมส่งมอบ SA + เพิ่ม §6 System Context (External Interfaces / User Classes / Operating Environment / Data Volume / Quality Attribute Priorities) ให้ SA มี input พอสำหรับ SRS+SAD ตาม IEEE 830. อัปเดต REQ traceability เพิ่ม SA Reference column",
+      "by": "Product Owner"
+    },
+    {
+      "date": "25 July 2026",
+      "version": "0.6",
+      "description": "เข้า SA phase — เพิ่ม SRS v0.1 (System Requirements Specification, IEEE 830-style) จาก REQ + HND. Q1/Q2 marked as blocking. Next: SAD after Q1/Q2 decided",
+      "by": "Product Owner"
+    },
+    {
+      "date": "27 July 2026",
+      "version": "0.7",
+      "description": "v0.7: แก้ consistency ทั้งชุด — SRS solo dev (เดิม 2 คน), REQ SCS→SCH + ปรับเลข WBS ให้ตรงรหัสจริง + เติม traceability §5 ครบ (เพิ่ม F-014/015, N-003/004/006/007/008/010, R-005) + SA Reference จาก SRS, PRD dead refs (sprint-plan/tasks)→WBS/EST/SCH/HND/SRS, HND version→v0.7 + แก้เลข section, เพิ่ม US-14/US-15 เข้า WBS+EST (base 80.5→86.5) propagate SCH, reconcile effort, resume window 7→30 วัน, analytics event naming, cohort size, SRS §4.4 priority, onboarding 12+medical",
+      "by": "Product Owner"
+    }
+  ]
+}
